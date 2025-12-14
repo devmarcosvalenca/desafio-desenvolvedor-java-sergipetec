@@ -1,0 +1,9 @@
+
+**
+
+
+!target/*.jar
+
+
+!Dockerfile
+!docker-compose.yml
