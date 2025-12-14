@@ -24,13 +24,13 @@ O projeto atende ao desafio técnico proposto e está totalmente **containerizad
 
 https://lucid.app/lucidchart/0e930856-b0b1-4fef-b7ca-6e979a48e52c/edit?viewport_loc=-18%2C124%2C1674%2C793%2CHWEp-vi-RSFO&invitationId=inv_2e9efbd5-3b68-476a-a2e8-8a98a553b83c
 
-![img_12.png](img_12.png)
+![img_12.png](assets/img_12.png)
 
 ### Protótipo de baixa fidelidade
 
 https://excalidraw.com/#json=PnP1jQeGYsjbI_RoNCSkn,FAt9ijxevo0n_cYUdbVN1w
 
-![img_13.png](img_13.png)
+![img_13.png](assets/img_13.png)
 
 ---
 
@@ -151,17 +151,17 @@ Projeto desenvolvido como parte de um **desafio técnico backend**, com foco em 
 
 ## Prints do sistema
 ### Postman
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
-![img_7.png](img_7.png)
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
+![img.png](assets/img.png)
+![img_1.png](assets/img_1.png)
+![img_2.png](assets/img_2.png)
+![img_3.png](assets/img_3.png)
+![img_4.png](assets/img_4.png)
+![img_5.png](assets/img_5.png)
+![img_6.png](assets/img_6.png)
+![img_7.png](assets/img_7.png)
+![img_8.png](assets/img_8.png)
+![img_9.png](assets/img_9.png)
 
 ### Docker
-![img_10.png](img_10.png)
-![img_11.png](img_11.png)
+![img_10.png](assets/img_10.png)
+![img_11.png](assets/img_11.png)
