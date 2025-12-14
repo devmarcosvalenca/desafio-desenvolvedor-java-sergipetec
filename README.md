@@ -18,24 +18,22 @@ O projeto atende ao desafio técnico proposto e está totalmente **containerizad
 
 ---
 
-##  Estrutura do Projeto
+## Modelagem
 
-```
-ferias/
-├── Dockerfile
-├── docker-compose.yml
-├── pom.xml
-├── README.md
-└── src/
-    └── main/
-        ├── java/
-        │   └── br/com/exemplo/ferias
-        └── resources/
-            ├── application.properties
-            └── data.sql
-```
+### Modelagem de dados
+
+https://lucid.app/lucidchart/0e930856-b0b1-4fef-b7ca-6e979a48e52c/edit?viewport_loc=-18%2C124%2C1674%2C793%2CHWEp-vi-RSFO&invitationId=inv_2e9efbd5-3b68-476a-a2e8-8a98a553b83c
+
+![img_12.png](img_12.png)
+
+### Protótipo de baixa fidelidade
+
+https://excalidraw.com/#json=PnP1jQeGYsjbI_RoNCSkn,FAt9ijxevo0n_cYUdbVN1w
+
+![img_13.png](img_13.png)
 
 ---
+
 
 ##  Configuração do Banco (H2)
 
@@ -43,6 +41,9 @@ O banco utilizado é o **H2 em memória**, inicializado automaticamente na subid
 
 * As tabelas são criadas via JPA (`ddl-auto=create`)
 * Os dados iniciais são carregados automaticamente pelo arquivo `data.sql`
+* Também é possível povoar as tabelas manualmente via Postman pelos endpoints disponíveis na coleção: 
+* Desafio-Desenvolvedor-BackEnd-SergipeTec.postman_collection
+
 
 > ⚠️ Como o H2 é em memória, **os dados são resetados toda vez que a aplicação reinicia**.
 
@@ -136,7 +137,7 @@ Retorna todas as informações do período de férias, incluindo servidor, statu
 
 * O H2 Console **não é exposto no Docker**, pois o acesso aos dados deve ser feito via API
 * O arquivo `data.sql` é executado automaticamente na inicialização
-* Ideal para testes, demonstração e avaliação técnica
+
 
 ---
 
@@ -147,3 +148,20 @@ Projeto desenvolvido como parte de um **desafio técnico backend**, com foco em 
 ---
 
 ✅ Projeto finalizado e pronto para avaliação.
+
+## Prints do sistema
+### Postman
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
+![img_7.png](img_7.png)
+![img_8.png](img_8.png)
+![img_9.png](img_9.png)
+
+### Docker
+![img_10.png](img_10.png)
+![img_11.png](img_11.png)
